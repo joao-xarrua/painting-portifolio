@@ -1,0 +1,42 @@
+.projetos {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.projetos h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.projetos span {
+  font-size: 1em;
+}
+
+.projetos .galeria {
+  max-width: 940px;
+  margin: 60px auto;
+  display: flex;
+  padding-left: 100px;
+}
+
+.projetos .galeria img + img {
+  margin-left: 20px;
+}
+
+.projetos a {
+  background: #ffe21a;
+  width: 200px;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #000;
+  border-radius: 5px;
+}
+
+.projetos a:hover {
+  background: #000;
+  color: #fff;
+}
