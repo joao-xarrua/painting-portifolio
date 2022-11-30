@@ -1,0 +1,46 @@
+.header-bg {
+  width: 100%;
+  background-image: url("../img/header-bg.jpg");
+}
+
+.header {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  padding: 120px 0 200px 0;
+  flex-direction: column;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-weight: bold;
+  max-width: 650px;
+  line-height: 1em;
+}
+
+.header h2 {
+  font-weight: 400;
+  margin-top: 20px;
+  max-width: 560px;
+}
+
+.header a {
+  flex: 1;
+  margin-top: 80px;
+  background: #000;
+  width: 320px;
+  padding: 15px 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+.header a:hover {
+  color: #000;
+  background: #ffe21a;
+}
