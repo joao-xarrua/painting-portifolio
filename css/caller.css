@@ -1,6 +1,7 @@
 .caller-bg {
   width: 100%;
   height: auto;
+  margin-top: 80px;
   background: url("../img/about-bg.jpg") no-repeat;
   background-size: cover;
 }
