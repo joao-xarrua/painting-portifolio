@@ -1,0 +1,44 @@
+* {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.topbar-bg {
+  width: 100%;
+  background: #ffe21a;
+}
+
+.topbar {
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.topbar .phone-top {
+  text-decoration: underline;
+}
+
+.topbar li {
+  display: inline-block;
+}
+
+.topbar li a {
+  display: block;
+  padding: 10px;
+}
+
+.topbar li a:hover svg path {
+  fill: white;
+}
