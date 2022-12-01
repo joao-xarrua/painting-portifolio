@@ -1,6 +1,7 @@
 .header-bg {
   width: 100%;
   background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
   position: relative;
   z-index: 1;
 }
@@ -12,7 +13,6 @@
   padding: 120px 0 200px 0;
   flex-direction: column;
   position: relative;
-  z-index: 2;
 }
 
 .header h1 {
