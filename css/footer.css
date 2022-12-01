@@ -1,0 +1,25 @@
+.footer-bg {
+  width: 100%;
+  background: #000;
+}
+
+.footer {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.footer .footer-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-content h2 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
