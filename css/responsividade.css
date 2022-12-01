@@ -6,6 +6,7 @@
   }
 
   /* NAVBAR */
+
   .navbar {
     padding: 20px;
     margin: 0;
@@ -14,6 +15,7 @@
   .navbar .menu-icon {
     display: block;
     border-radius: 5px;
+    z-index: 1199;
   }
 
   .navbar .menu-icon:hover {
@@ -25,18 +27,17 @@
     height: 0;
     position: absolute;
     width: 100vw;
-    top: 100px;
+    top: 0;
     left: 0;
     right: 0;
     background: #000;
     overflow: hidden;
     transition: 0.5s;
-
     z-index: 1000;
   }
 
   .navbar .links-list.ativo {
-    height: 50vh;
+    height: 100vh;
     display: block;
   }
 
