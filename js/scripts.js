@@ -10,7 +10,8 @@ function initScrollSuave() {
         behavior: "smooth",
         block: "center",
       });
-      console.log(secoes);
+      const navbar = document.querySelector(".links-list");
+      navbar.classList.remove("ativo");
     }
 
     linksInternos.forEach((link) => {
@@ -41,3 +42,10 @@ function initAnimaScroll() {
   }
 }
 initAnimaScroll();
+
+const menuIcone = document.querySelector(".menu-icon");
+const navbar = document.querySelector(".links-list");
+
+menuIcone.onclick = () => {
+  navbar.classList.toggle("ativo");
+};
