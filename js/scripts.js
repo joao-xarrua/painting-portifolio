@@ -24,7 +24,7 @@ initScrollSuave();
 function initAnimaScroll() {
   const secoes = document.querySelectorAll(".js-scroll");
   if (secoes.length) {
-    const tela = window.innerHeight * 0.6;
+    const tela = window.innerHeight * 0.76;
 
     function animaScroll() {
       secoes.forEach((secao) => {
