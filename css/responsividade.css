@@ -7,8 +7,61 @@
 
   /* NAVBAR */
   .navbar {
-    margin: 0 20px;
+    padding: 20px;
+    margin: 0;
   }
+
+  .navbar .menu-icon {
+    display: block;
+    border-radius: 5px;
+  }
+
+  .navbar .menu-icon:hover {
+    cursor: pointer;
+    background: #ffe21a;
+  }
+
+  .navbar .links-list {
+    height: 0;
+    position: absolute;
+    width: 100vw;
+    top: 100px;
+    left: 0;
+    right: 0;
+    background: #000;
+    overflow: hidden;
+    transition: 0.5s;
+
+    z-index: 1000;
+  }
+
+  .navbar .links-list.ativo {
+    height: 50vh;
+    display: block;
+  }
+
+  .navbar .links-list ul {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 80px auto;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .navbar .links-list ul li a {
+    display: block;
+    background: #ffe21a;
+    border-radius: 5px;
+  }
+
+  .navbar .links-list ul li a:hover {
+    color: initial;
+  }
+
+  .navbar .links-list ul li + li a {
+    margin-top: 10px;
+  }
+
   /* HEADER */
   .header {
     margin: 0 20px;

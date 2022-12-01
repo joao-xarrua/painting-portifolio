@@ -1,6 +1,8 @@
 .header-bg {
   width: 100%;
   background-image: url("../img/header-bg.jpg");
+  position: relative;
+  z-index: -2100;
 }
 
 .header {
@@ -9,6 +11,8 @@
   display: flex;
   padding: 120px 0 200px 0;
   flex-direction: column;
+  position: relative;
+  z-index: -1;
 }
 
 .header h1 {
