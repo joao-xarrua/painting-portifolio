@@ -1,0 +1,20 @@
+/*
+Theme Name: Alex Pinturas
+Theme URI: http://alexpinturas.br/
+Author: João Xarrua
+Author URI: http://alexpinturas.br/
+Description: Tema da empresa Alex Pinturas.
+Version: 1.0
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import "./css/geral.css";
+@import "./css/topbar.css";
+@import "./css/navbar.css";
+@import "./css/header.css";
+@import "./css/cards.css";
+@import "./css/servicos.css";
+@import "./css/caller.css";
+@import "./css/projetos.css";
+@import "./css/footer.css";
+@import "./css/responsividade.css";
