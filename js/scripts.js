@@ -1,3 +1,4 @@
+alert("aa");
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.navbar a[href^="#"]');
 
@@ -46,6 +47,8 @@ initAnimaScroll();
 const menuIcone = document.querySelector(".menu-icon");
 const navbar = document.querySelector(".links-list");
 
-menuIcone.onclick = () => {
+function handleMenu() {
   navbar.classList.toggle("ativo");
-};
+}
+
+menuIcone.addEventListener("click", handleMenu);
