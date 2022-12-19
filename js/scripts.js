@@ -1,4 +1,3 @@
-alert("aa");
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.navbar a[href^="#"]');
 

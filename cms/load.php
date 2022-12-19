@@ -22,6 +22,9 @@
         return $imagem;
     }
 
-    // carrega os campos do CMB2
+    // adicionando scripts
     require_once get_template_directory() . './cms/adicionar_script.php';
+
+    // carrega os campos do CMB2
+    require_once get_template_directory() . './cms/home.php';
 ?>
