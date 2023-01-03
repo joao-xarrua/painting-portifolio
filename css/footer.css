@@ -12,6 +12,10 @@
   padding: 40px 0;
 }
 
+.footer .logo_footer {
+  max-width: 220px;
+}
+
 .footer .footer-content {
   color: white;
   display: flex;

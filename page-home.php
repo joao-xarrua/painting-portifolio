@@ -83,7 +83,7 @@
           <img src="<?php echo $projeto['imagem-projeto'];?>"/>
         <?php } }?>
       </div>
-      <a href="projetos.html">Veja mais</a>
+      <a href="https://www.instagram.com/apt.pintura/">Veja mais</a>
     </section>
 
 <?php endwhile; else: endif; ?>

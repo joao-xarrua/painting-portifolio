@@ -83,7 +83,7 @@
     <!-- NAVBAR -->
     <nav class="navbar-bg">
       <div class="navbar js-scroll">
-        <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Alex Pinturas" /></h1>
+        <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="logo" alt="Alex Pinturas" /></h1>
         <svg
           class="menu-icon"
           width="40"

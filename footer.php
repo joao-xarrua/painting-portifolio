@@ -1,7 +1,7 @@
 <!-- FOOTER -->
 <footer class="footer-bg">
       <div class="footer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-square.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-square.png" class="logo_footer" alt="Logo APT Pinturas" />
         <div class="footer-content">
           <h2><?php bloginfo('name'); ?></h2>
           <p>
@@ -9,7 +9,7 @@
             toda região, dedicados sempre a entregar a melhor qualidade de
             nossos projetos.
           </p>
-          <span>(11) 91234-5678</span>
+          <span>(11)94910-9612</span>
           <p>
             <b><?php bloginfo('name'); ?></b> © <?php echo date("Y"); ?> - Todos os direitos reservados
           </p>
